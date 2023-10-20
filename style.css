@@ -15,7 +15,7 @@ body {
 
 /* sidebar */
 .sidebar {
-    background-color: #059669;
+    background-color: blue;
     padding: 1rem;
     color: white;
 }
@@ -48,5 +48,73 @@ body {
 
 /* main */
 .main {
-    background-color: yellow;
+    background-color: gray;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 1px 5px rgb(0 0 0 / 0.2);
+    padding-bottom: 10px;
+}
+
+.container-max-width {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 55rem;
+    margin: auto;
+}
+
+.search-group {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    width: 35rem;
+    border-radius: 10rem;
+    padding: 3px;
+    background-color: lightgray;
+    border: none;
+}
+
+.noti-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11rem;
+}
+
+.nav-group {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10rem;
+}
+
+.nav-heading-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.user-group {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: blue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
 }
