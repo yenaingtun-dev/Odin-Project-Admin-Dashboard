@@ -48,13 +48,13 @@ body {
 
 /* main */
 .main {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 /* navbar */
 .navbar {
     background-color: white;
-    box-shadow: 1px 5px rgb(0 0 0 / 0.2);
+    box-shadow: 1px 4px rgb(0 0 0 / 0.1);
     padding-bottom: 10px;
 }
 
@@ -117,4 +117,63 @@ body {
     cursor: pointer;
     color: white;
     border-radius: 50px;
+}
+
+.main-dashboard {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-div {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 3px;
+}
+
+.card-content {
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.card-heading {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+
+.card-links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.card-links > svg {
+    width: 20px;
+    padding-left: 20px;
 }
