@@ -201,3 +201,27 @@ body {
 .announce-card-text {
     font-size: 13px;
 }
+
+.trending-card-group {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.trending-card {
+    display: flex;
+    margin-top: 20px;
+}
+
+.trending-card-icon {
+    padding-right: 10px;
+}
+
+.trending-card-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trending-card-text {
+    font-size: 13px;
+}
