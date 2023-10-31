@@ -177,3 +177,27 @@ body {
     width: 20px;
     padding-left: 20px;
 }
+
+.announce-card-group {
+    background-color: #fff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.announce-card {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-top: 14px;
+}
+
+.announce-card-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.announce-card-text {
+    font-size: 13px;
+}
